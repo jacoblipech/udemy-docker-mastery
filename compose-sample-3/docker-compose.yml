@@ -13,4 +13,4 @@ services:
   web:
     image: httpd
     volumes:
-      - ./html:/usr/local/apache2/htdocs/
+      - ./html:/usr/local/apache2/htdocs/ # mount local files into the volume
