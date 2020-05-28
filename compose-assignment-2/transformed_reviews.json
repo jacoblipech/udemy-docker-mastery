@@ -1,0 +1,263 @@
+// val rawBody: String = """
+// {"code":200,"data":{"total":1,"reviews":[{"propertyId":"1000091757","roomTypeId":"118029","reviewId":"442072","language":"ko","reviewer":"껄*******","title":null,"content":"`123123123123123","rating":4.0,"ratings":{"services":1.0,"clean":1.0,"convenience":1.0,"location":1.0},"createdAt":"2019-09-24T15:53:50"},{"propertyId":"1000091757","roomTypeId":"118007","reviewId":"442067","language":"ko","reviewer":"ㅎ*******","title":null,"content":"rrrrrgvvhh","rating":5.0,"ratings":{"services":5.0,"clean":5.0,"convenience":5.0,"location":5.0},"createdAt":"2019-08-14T17:33:52"},{"propertyId":"1000091757","roomTypeId":"118007","reviewId":"442066","language":"ko","reviewer":"닉*******","title":null,"content":"후기 수정 테스트~<img src=\"https://yadev.yanolja.com/v5/2019/08/06/16/640/5d492b8def1899.73822394.jpeg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/05/14/640/5d47c0e8a93a17.06643331.jpg\"><br />","rating":3.0,"ratings":{"services":5.0,"clean":2.0,"convenience":5.0,"location":4.0},"createdAt":"2019-08-06T16:26:07"},{"propertyId":"1000091757","roomTypeId":"118007","reviewId":"442065","language":"ko","reviewer":"닉*******","title":null,"content":"fdasfds<img src='https://yadev.yanolja.com/v5/2019/08/05/18/640/5d47fa86150d78.57394863.png' alt='4049956'><br />","rating":1.0,"ratings":{"services":2.0,"clean":3.0,"convenience":2.0,"location":3.0},"createdAt":"2019-08-05T18:44:39"},{"propertyId":"1000091757","roomTypeId":"118007","reviewId":"442063","language":"ko","reviewer":"닉*******","title":null,"content":"gfadsfadasdf","rating":2.0,"ratings":{"services":2.0,"clean":2.0,"convenience":4.0,"location":2.0},"createdAt":"2019-08-05T15:58:56"},{"propertyId":"1000091757","roomTypeId":"118007","reviewId":"442060","language":"ko","reviewer":"닉*******","title":null,"content":"또 오곳 ㅣㅍㄴㅇ마ㅣㄹㄴㅇ\n하하ㅏ\n고양이 귀여움<img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abeec95507.10978663.jpg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abef100af8.75377962.jpg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abef6ea847.73644889.PNG\"><br />","rating":3.0,"ratings":{"services":3.0,"clean":5.0,"convenience":3.0,"location":1.0},"createdAt":"2019-08-01T18:07:59"},{"propertyId":"1000091757","roomTypeId":"118022","reviewId":"442054","language":"ko","reviewer":"안*******","title":null,"content":"하하하하 좋아요 하하하하 호호호\n후루루\nㅜ루루루루하하라라\nㅁㄴ아ㅣ럼ㄴ;ㅣㅏㅇ러\n호호홍ㅎㅎㅎ\n버벅거려 ㅠㅠ\n버벅거리지 말<img src=\"https://yadev.yanolja.com/v5/2019/07/29/20/640/5d3edb3b450dd7.88581283.jpg\"><br />","rating":1.0,"ratings":{"services":2.0,"clean":5.0,"convenience":2.0,"location":1.0},"createdAt":"2019-07-29T20:40:44"}]}}"""
+
+
+supplierId: 27989
+supplierHotelId: "1000091757"
+reviews {
+  reviewId: "442536"
+  averageRating: 4.0
+  comment: "테스트 예약 감사~"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1583234187000
+  languageId: 9
+}
+reviews {
+  reviewId: "442535"
+  averageRating: 4.0
+  comment: "테스트 예약 감사~"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1583232158000
+  languageId: 9
+}
+reviews {
+  reviewId: "442505"
+  averageRating: 5.0
+  comment: "ㄴㄷㄴㅅㅈㄷㄴㅅㄷㄴㅅㅈㄴㅅㅈㄷㅅㅈㄷㄴㅅㄷ<img src='https://yadev.yanolja.com/v5/2020/01/17/19/640/5e218fd718bbd7.35977280.jpg' alt='4071398'><br />"
+  reviewer {
+    name: "유*******"
+  }
+  reviewDate: 1579290215000
+  languageId: 9
+}
+reviews {
+  reviewId: "442488"
+  averageRating: 5.0
+  comment: "후기 작성되라 얍!"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1578403303000
+  languageId: 9
+}
+reviews {
+  reviewId: "442482"
+  averageRating: 2.0
+  comment: "안드 연박 후기"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1577985193000
+  languageId: 9
+}
+reviews {
+  reviewId: "442481"
+  averageRating: 3.0
+  comment: "ios에서 남긴 연박후기 ㅋ"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1577965533000
+  languageId: 9
+}
+reviews {
+  reviewId: "442480"
+  averageRating: 2.0
+  comment: "안드에서 남긴 연박 후기"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1577965447000
+  languageId: 9
+}
+reviews {
+  reviewId: "442479"
+  averageRating: 1.0
+  comment: "웹에서 남긴 후기"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1577965366000
+  languageId: 9
+}
+reviews {
+  reviewId: "442474"
+  averageRating: 5.0
+  comment: "좋았어요~~~"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1577789323000
+  languageId: 9
+}
+reviews {
+  reviewId: "442332"
+  averageRating: 4.0
+  comment: "좋았습니다~@@@ㅁ<img src=\"https://yadev.yanolja.com/v5/2019/11/12/18/640/5dca7f42108f68.65652557.jpg\"><br />"
+  reviewer {
+    name: "깡*******"
+  }
+  reviewDate: 1573584338000
+  languageId: 9
+}
+reviews {
+  reviewId: "442072"
+  averageRating: 4.0
+  comment: "`123123123123123"
+  reviewer {
+    name: "껄*******"
+  }
+  reviewDate: 1569340430000
+  languageId: 9
+}
+reviews {
+  reviewId: "442067"
+  averageRating: 5.0
+  comment: "rrrrrgvvhh"
+  reviewer {
+    name: "ㅎ*******"
+  }
+  reviewDate: 1565804032000
+  languageId: 9
+}
+reviews {
+  reviewId: "442066"
+  averageRating: 3.0
+  comment: "후기 수정 테스트~<img src=\"https://yadev.yanolja.com/v5/2019/08/06/16/640/5d492b8def1899.73822394.jpeg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/05/14/640/5d47c0e8a93a17.06643331.jpg\"><br />"
+  reviewer {
+    name: "닉*******"
+  }
+  reviewDate: 1565108767000
+  languageId: 9
+}
+reviews {
+  reviewId: "442065"
+  averageRating: 1.0
+  comment: "fdasfds<img src='https://yadev.yanolja.com/v5/2019/08/05/18/640/5d47fa86150d78.57394863.png' alt='4049956'><br />"
+  reviewer {
+    name: "닉*******"
+  }
+  reviewDate: 1565030679000
+  languageId: 9
+}
+reviews {
+  reviewId: "442063"
+  averageRating: 2.0
+  comment: "gfadsfadasdf"
+  reviewer {
+    name: "닉*******"
+  }
+  reviewDate: 1565020736000
+  languageId: 9
+}
+reviews {
+  reviewId: "442060"
+  averageRating: 3.0
+  comment: "또 오곳 ㅣㅍㄴㅇ마ㅣㄹㄴㅇ\n하하ㅏ\n고양이 귀여움<img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abeec95507.10978663.jpg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abef100af8.75377962.jpg\"><br /><img src=\"https://yadev.yanolja.com/v5/2019/08/01/18/640/5d42abef6ea847.73644889.PNG\"><br />"
+  reviewer {
+    name: "닉*******"
+  }
+  reviewDate: 1564682879000
+  languageId: 9
+}
+reviews {
+  reviewId: "442054"
+  averageRating: 1.0
+  comment: "하하하하 좋아요 하하하하 호호호\n후루루\nㅜ루루루루하하라라\nㅁㄴ아ㅣ럼ㄴ;ㅣㅏㅇ러\n호호홍ㅎㅎㅎ\n버벅거려 ㅠㅠ\n버벅거리지 말<img src=\"https://yadev.yanolja.com/v5/2019/07/29/20/640/5d3edb3b450dd7.88581283.jpg\"><br />"
+  reviewer {
+    name: "안*******"
+  }
+  reviewDate: 1564432844000
+  languageId: 9
+}
+reviewScore {
+  scoreDistributions {
+    count: 0
+    score: 10
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 9
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 8
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 7
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 6
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 5
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 4
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 3
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 2
+    percent: 0.0
+  }
+  scoreDistributions {
+    count: 0
+    score: 1
+    percent: 0.0
+  }
+  scoreBreakdowns {
+    reviewerType: 0
+    count: 17
+    score: 6.352941176470588
+  }
+  scoreBreakdowns {
+    reviewerType: 0
+    criteriaId: 95
+    count: 17
+    score: 6.470588235294118
+  }
+  scoreBreakdowns {
+    reviewerType: 0
+    criteriaId: 96
+    count: 17
+    score: 6.823529411764706
+  }
+  scoreBreakdowns {
+    reviewerType: 0
+    criteriaId: 97
+    count: 17
+    score: 6.823529411764706
+  }
+  scoreBreakdowns {
+    reviewerType: 0
+    criteriaId: 94
+    count: 17
+    score: 6.470588235294118
+  }
+}
+reviewMergeType: OVERLAY
+
+2020-04-08 23:58:45 [scala-execution-context-global-25] INFO  c.a.c.d.s.jobs.ReviewDownloadJob - process review records for yanolja complete with 1/1 review records publish to kafka
+2020-04-08 23:58:45 [scala-execution-context-global-25] INFO  c.a.content.downloader.SupplierJobs - took 3604(ms) to run download job for yanolja
+
+Process finished with exit code 0
